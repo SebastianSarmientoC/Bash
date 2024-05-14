@@ -24,7 +24,7 @@ El tabulado también es una gran herramienta para moverse entre directorios pues
 
 Cuando lleguemos a los archivos y necesitemos leerlos, vamos a disponer de varios comandos para este fin como: less, cat, head y tail. ¡Probemos cada uno!
 
-Para esto descarguemos un archivo del siguiente link con el comando _wget_:
+Para esto descarguemos un archivo del siguiente link con el comando _wget_: [link](https://downgit.github.io/#/home?url=https://github.com/SebastianSarmientoC/Bash/blob/main/Pauriginosa_complete_genomes_annotated_2024_1.tsv)
 
 Para mover archivos de un lugar a otro pordemos utilizar _cp_. 
 
