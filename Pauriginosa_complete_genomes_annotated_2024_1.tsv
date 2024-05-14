@@ -1,0 +1,301 @@
+Assembly Accession	Assembly Name	Organism Name	Assembly Sequencing Tech	Annotation Count Gene Total	Annotation Count Gene Pseudogene
+GCA_036542105.1	ASM3654210v1	Pseudomonas aeruginosa	Nanopore PromethION	6975	105
+GCF_036542105.1	ASM3654210v1	Pseudomonas aeruginosa	Nanopore PromethION	6975	105
+GCA_035621175.1	ASM3562117v1	Pseudomonas aeruginosa	Oxford Nanopore GridION; Illumina MiSeq	6761	83
+GCF_035621175.1	ASM3562117v1	Pseudomonas aeruginosa	Oxford Nanopore GridION; Illumina MiSeq	6761	83
+GCA_036232065.1	ASM3623206v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6825	82
+GCF_036232065.1	ASM3623206v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6831	75
+GCA_022424055.2	ASM2242405v2	Pseudomonas aeruginosa	Illumina MiSeq; Oxford Nanopore MinION	6690	152
+GCF_022424055.2	ASM2242405v2	Pseudomonas aeruginosa	Illumina MiSeq; Oxford Nanopore MinION	6692	153
+GCA_035557195.2	ASM3555719v2	Pseudomonas aeruginosa	Oxford Nanopore GridION; Illumina MiSeq	6948	93
+GCF_035557195.1	ASM3555719v2	Pseudomonas aeruginosa	Oxford Nanopore GridION; Illumina MiSeq	6948	93
+GCA_036233355.1	ASM3623335v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6628	87
+GCF_036233355.1	ASM3623335v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6628	82
+GCA_038431885.1	ASM3843188v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6830	84
+GCF_038431885.1	ASM3843188v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6828	88
+GCA_036776515.1	ASM3677651v1	Pseudomonas aeruginosa	PacBio RSII	7197	115
+GCF_036776515.1	ASM3677651v1	Pseudomonas aeruginosa	PacBio RSII	7191	118
+GCA_036237095.1	ASM3623709v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6710	77
+GCF_036237095.1	ASM3623709v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6708	68
+GCA_039512425.1	ASM3951242v1	Pseudomonas aeruginosa	PacBio	6617	78
+GCF_039512425.1	ASM3951242v1	Pseudomonas aeruginosa	PacBio	6615	76
+GCA_036232765.1	ASM3623276v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6684	81
+GCF_036232765.1	ASM3623276v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6686	72
+GCA_036418145.1	ASM3641814v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6769	277
+GCF_036418145.1	ASM3641814v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6769	277
+GCA_036232085.1	ASM3623208v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6689	79
+GCF_036232085.1	ASM3623208v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6693	70
+GCA_035198885.1	ASM3519888v1	Pseudomonas aeruginosa	Oxford Nanopore PromethION	6733	279
+GCF_035198885.1	ASM3519888v1	Pseudomonas aeruginosa	Oxford Nanopore PromethION	6733	280
+GCA_032843885.3	ASM3284388v3	Pseudomonas aeruginosa	Illumina NovaSeq; Oxford Nanopore MinION	6720	68
+GCF_032843885.3	ASM3284388v3	Pseudomonas aeruginosa	Illumina NovaSeq; Oxford Nanopore MinION	6720	68
+GCA_035621255.1	ASM3562125v1	Pseudomonas aeruginosa	Oxford Nanopore PromethION; Illumina NovaSeq	6731	69
+GCF_035621255.1	ASM3562125v1	Pseudomonas aeruginosa	Oxford Nanopore PromethION; Illumina NovaSeq	6731	69
+GCA_038431895.1	ASM3843189v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6619	95
+GCF_038431895.1	ASM3843189v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6619	94
+GCA_036418275.1	ASM3641827v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6634	163
+GCF_036418275.1	ASM3641827v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6634	163
+GCA_037890725.1	ASM3789072v1	Pseudomonas aeruginosa	Illumina MiSeq; Oxford Nanopore GridION	6581	83
+GCF_037890725.1	ASM3789072v1	Pseudomonas aeruginosa	Illumina MiSeq; Oxford Nanopore GridION	6581	83
+GCA_038431905.1	ASM3843190v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6687	84
+GCF_038431905.1	ASM3843190v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6686	88
+GCA_030183855.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6544	83
+GCF_030183855.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6544	83
+GCA_030183355.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6546	85
+GCF_030183355.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6546	85
+GCA_030186885.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6546	83
+GCF_030186885.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6546	83
+GCA_030185815.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6544	84
+GCF_030185815.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6544	85
+GCA_030185915.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6540	90
+GCF_030185915.2	NA	Pseudomonas aeruginosa	Illumina NovaSeq	6540	91
+GCA_038431925.1	ASM3843192v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6591	62
+GCF_038431925.1	ASM3843192v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6590	61
+GCA_036233675.1	ASM3623367v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6549	79
+GCF_036233675.1	ASM3623367v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6549	61
+GCA_036237115.1	ASM3623711v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6576	67
+GCF_036237115.1	ASM3623711v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6580	55
+GCA_036233515.1	ASM3623351v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6577	65
+GCF_036233515.1	ASM3623351v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6580	53
+GCA_036326305.1	ASM3632630v1	Pseudomonas aeruginosa	Illumina MiSeq; Oxford Nanopore GridION	6547	103
+GCF_036326305.1	ASM3632630v1	Pseudomonas aeruginosa	Illumina MiSeq; Oxford Nanopore GridION	6547	103
+GCA_037287405.1	ASM3728740v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6491	69
+GCF_037287405.1	ASM3728740v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6491	69
+GCA_037287425.1	ASM3728742v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6491	71
+GCF_037287425.1	ASM3728742v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6491	71
+GCA_036232405.1	ASM3623240v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6573	69
+GCF_036232405.1	ASM3623240v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6580	58
+GCA_037287535.1	ASM3728753v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6564	85
+GCF_037287535.1	ASM3728753v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6564	85
+GCA_037287545.1	ASM3728754v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6565	85
+GCF_037287545.1	ASM3728754v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6565	85
+GCA_036233435.1	ASM3623343v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6518	71
+GCF_036233435.1	ASM3623343v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6519	62
+GCA_036835625.1	ASM3683562v1	Pseudomonas aeruginosa	Oxford Nanopore MinION; Illumina HiSeq	6491	85
+GCF_036835625.1	ASM3683562v1	Pseudomonas aeruginosa	Oxford Nanopore MinION; Illumina HiSeq	6490	85
+GCA_038432515.1	ASM3843251v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6653	86
+GCF_038432515.1	ASM3843251v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6654	85
+GCA_039555165.1	ASM3955516v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina Nextseq 550	6410	81
+GCF_039555165.1	ASM3955516v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina Nextseq 550	6408	75
+GCA_036418185.1	ASM3641818v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6486	155
+GCF_036418185.1	ASM3641818v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6486	155
+GCA_038431915.1	ASM3843191v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6564	64
+GCF_038431915.1	ASM3843191v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6564	65
+GCA_036232725.1	ASM3623272v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6428	58
+GCF_036232725.1	ASM3623272v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6426	50
+GCA_036232745.1	ASM3623274v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6429	59
+GCF_036232745.1	ASM3623274v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6428	51
+GCA_036233595.1	ASM3623359v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6431	68
+GCF_036233595.1	ASM3623359v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6428	60
+GCA_036232365.1	ASM3623236v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6478	73
+GCF_036232365.1	ASM3623236v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6485	66
+GCA_036233635.1	ASM3623363v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6642	81
+GCF_036233635.1	ASM3623363v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6639	71
+GCA_035205985.1	ASM3520598v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	7136	95
+GCF_035205985.1	ASM3520598v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	7136	95
+GCA_036236015.1	ASM3623601v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6815	80
+GCF_036236015.1	ASM3623601v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6819	70
+GCA_036232185.1	ASM3623218v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6435	64
+GCF_036232185.1	ASM3623218v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6437	52
+GCA_036232345.1	ASM3623234v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6601	73
+GCF_036232345.1	ASM3623234v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6603	66
+GCA_036232425.1	ASM3623242v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6957	81
+GCF_036232425.1	ASM3623242v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6956	77
+GCA_036232125.1	ASM3623212v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6657	75
+GCF_036232125.1	ASM3623212v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6653	71
+GCA_035197965.1	ASM3519796v1	Pseudomonas aeruginosa	Oxford Nanopore PromethION	6433	51
+GCF_035197965.1	ASM3519796v1	Pseudomonas aeruginosa	Oxford Nanopore PromethION	6436	51
+GCA_036232685.1	ASM3623268v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6600	69
+GCF_036232685.1	ASM3623268v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6602	58
+GCA_035197065.1	ASM3519706v1	Pseudomonas aeruginosa	Oxford Nanopore PromethION	6395	45
+GCF_035197065.1	ASM3519706v1	Pseudomonas aeruginosa	Oxford Nanopore PromethION	6395	46
+GCA_036232225.1	ASM3623222v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6374	77
+GCF_036232225.1	ASM3623222v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6376	68
+GCA_036418295.1	ASM3641829v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6342	130
+GCF_036418295.1	ASM3641829v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6342	130
+GCA_036232785.1	ASM3623278v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6479	55
+GCF_036232785.1	ASM3623278v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6479	47
+GCA_036233315.1	ASM3623331v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6441	71
+GCF_036233315.1	ASM3623331v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6442	57
+GCA_037482125.1	ASM3748212v1	Pseudomonas aeruginosa	Illumina NovaSeq 6000; PacBio	6433	50
+GCF_037482125.1	ASM3748212v1	Pseudomonas aeruginosa	Illumina NovaSeq 6000; PacBio	6433	50
+GCA_036232585.1	ASM3623258v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6397	60
+GCF_036232585.1	ASM3623258v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6398	52
+GCA_036232605.1	ASM3623260v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6396	61
+GCF_036232605.1	ASM3623260v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6397	52
+GCA_036233095.1	ASM3623309v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6333	78
+GCF_036233095.1	ASM3623309v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6332	69
+GCA_036233135.1	ASM3623313v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6298	59
+GCF_036233135.1	ASM3623313v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6300	48
+GCA_036233295.1	ASM3623329v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6353	88
+GCF_036233295.1	ASM3623329v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6357	78
+GCA_036233695.1	ASM3623369v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6640	94
+GCF_036233695.1	ASM3623369v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6643	88
+GCA_036233615.1	ASM3623361v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6562	72
+GCF_036233615.1	ASM3623361v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6563	58
+GCA_036233415.1	ASM3623341v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6410	55
+GCF_036233415.1	ASM3623341v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6410	46
+GCA_036233555.1	ASM3623355v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6246	75
+GCF_036233555.1	ASM3623355v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6250	65
+GCA_036232205.1	ASM3623220v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6266	56
+GCF_036232205.1	ASM3623220v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6266	48
+GCA_036233395.1	ASM3623339v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6265	68
+GCF_036233395.1	ASM3623339v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6266	58
+GCA_036233655.1	ASM3623365v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6282	75
+GCF_036233655.1	ASM3623365v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6282	66
+GCA_038431935.1	ASM3843193v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6830	71
+GCF_038431935.1	ASM3843193v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6828	71
+GCA_036232825.1	ASM3623282v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6267	69
+GCF_036232825.1	ASM3623282v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6272	59
+GCA_036417805.1	ASM3641780v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6293	160
+GCF_036417805.1	ASM3641780v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6293	160
+GCA_036417915.1	ASM3641791v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6295	145
+GCF_036417915.1	ASM3641791v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6295	145
+GCA_036417705.1	ASM3641770v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6295	143
+GCF_036417705.1	ASM3641770v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6295	143
+GCA_036233495.1	ASM3623349v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6232	86
+GCF_036233495.1	ASM3623349v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6231	80
+GCA_036236975.1	ASM3623697v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6225	75
+GCF_036236975.1	ASM3623697v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6227	64
+GCA_036232455.1	ASM3623245v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6215	60
+GCF_036232455.1	ASM3623245v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6216	52
+GCA_036417785.1	ASM3641778v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6345	335
+GCF_036417785.1	ASM3641778v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6345	335
+GCA_036232925.1	ASM3623292v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6192	61
+GCF_036232925.1	ASM3623292v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6195	53
+GCA_036232885.1	ASM3623288v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6192	61
+GCF_036232885.1	ASM3623288v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6194	53
+GCA_036232905.1	ASM3623290v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6191	61
+GCF_036232905.1	ASM3623290v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6194	53
+GCA_036232385.1	ASM3623238v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6496	70
+GCF_036232385.1	ASM3623238v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6499	60
+GCA_038431945.1	ASM3843194v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6230	50
+GCF_038431945.1	ASM3843194v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6227	49
+GCA_036232565.1	ASM3623256v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6278	66
+GCF_036232565.1	ASM3623256v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6282	60
+GCA_036233335.1	ASM3623333v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6185	81
+GCF_036233335.1	ASM3623333v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6189	72
+GCA_038396595.1	ASM3839659v1	Pseudomonas aeruginosa	PacBio RSII	6198	56
+GCF_038396595.1	ASM3839659v1	Pseudomonas aeruginosa	PacBio RSII	6202	45
+GCA_036233255.1	ASM3623325v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6111	78
+GCF_036233255.1	ASM3623325v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6113	68
+GCA_036232325.1	ASM3623232v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6165	55
+GCF_036232325.1	ASM3623232v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6169	45
+GCA_036237055.1	ASM3623705v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6138	62
+GCF_036237055.1	ASM3623705v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6141	54
+GCA_036233575.1	ASM3623357v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6192	50
+GCF_036233575.1	ASM3623357v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6194	44
+GCA_036233455.1	ASM3623345v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6158	66
+GCF_036233455.1	ASM3623345v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6159	57
+GCA_036232665.1	ASM3623266v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6256	93
+GCF_036232665.1	ASM3623266v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6258	85
+GCA_036232945.1	ASM3623294v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6170	49
+GCF_036232945.1	ASM3623294v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6177	41
+GCA_036233475.1	ASM3623347v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6079	62
+GCF_036233475.1	ASM3623347v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6076	53
+GCA_036417995.1	ASM3641799v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6079	68
+GCF_036417995.1	ASM3641799v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6079	68
+GCA_036418055.1	ASM3641805v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6079	87
+GCF_036418055.1	ASM3641805v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6079	87
+GCA_036233755.1	ASM3623375v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6058	65
+GCF_036233755.1	ASM3623375v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6060	57
+GCA_036232625.1	ASM3623262v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6112	59
+GCF_036232625.1	ASM3623262v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6112	53
+GCA_036232105.1	ASM3623210v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6199	87
+GCF_036232105.1	ASM3623210v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6201	78
+GCA_036237015.1	ASM3623701v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6053	65
+GCF_036237015.1	ASM3623701v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6057	54
+GCA_036233535.1	ASM3623353v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6044	55
+GCF_036233535.1	ASM3623353v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6044	45
+GCA_036233115.1	ASM3623311v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6042	49
+GCF_036233115.1	ASM3623311v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6043	38
+GCA_038396855.1	ASM3839685v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6078	42
+GCF_038396855.1	ASM3839685v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6078	42
+GCA_036232285.1	ASM3623228v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6417	84
+GCF_036232285.1	ASM3623228v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6419	74
+GCA_037287505.1	ASM3728750v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6011	37
+GCF_037287505.1	ASM3728750v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6011	37
+GCA_037287585.1	ASM3728758v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6009	36
+GCF_037287585.1	ASM3728758v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	6009	36
+GCA_036232145.1	ASM3623214v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6005	64
+GCF_036232145.1	ASM3623214v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6005	53
+GCA_036234315.1	ASM3623431v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6101	69
+GCF_036234315.1	ASM3623431v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6101	52
+GCA_036233275.1	ASM3623327v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5990	56
+GCF_036233275.1	ASM3623327v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5991	46
+GCA_036232525.1	ASM3623252v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5994	73
+GCF_036232525.1	ASM3623252v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5995	64
+GCA_036233175.1	ASM3623317v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6032	57
+GCF_036233175.1	ASM3623317v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6034	51
+GCA_036232705.1	ASM3623270v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6025	52
+GCF_036232705.1	ASM3623270v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6026	39
+GCA_036232265.1	ASM3623226v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6006	45
+GCF_036232265.1	ASM3623226v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6008	36
+GCA_036233195.1	ASM3623319v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5965	58
+GCF_036233195.1	ASM3623319v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5965	50
+GCA_036233215.1	ASM3623321v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5964	57
+GCF_036233215.1	ASM3623321v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5965	49
+GCA_036233235.1	ASM3623323v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5964	63
+GCF_036233235.1	ASM3623323v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5964	55
+GCA_036233735.1	ASM3623373v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5983	61
+GCF_036233735.1	ASM3623373v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5982	52
+GCF_038420425.1	ASM3842042v1	Pseudomonas aeruginosa	PacBio	5960	36
+GCA_038397815.1	ASM3839781v1	Pseudomonas aeruginosa	PacBio RSII	6520	58
+GCF_038397815.1	ASM3839781v1	Pseudomonas aeruginosa	PacBio RSII	6520	58
+GCA_036232645.1	ASM3623264v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6031	49
+GCF_036232645.1	ASM3623264v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6037	39
+GCA_019084125.3	PAeru_501_Uni_041824	Pseudomonas aeruginosa	Illumina MiSeq; Oxford Nanopore MinION	5967	49
+GCF_019084125.3	PAeru_501_Uni_041824	Pseudomonas aeruginosa	Illumina MiSeq; Oxford Nanopore MinION	5966	49
+GCA_036233375.1	ASM3623337v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6153	52
+GCF_036233375.1	ASM3623337v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6152	43
+GCA_038396885.1	ASM3839688v1	Pseudomonas aeruginosa	PacBio RSII	6487	62
+GCF_038396885.1	ASM3839688v1	Pseudomonas aeruginosa	PacBio RSII	6453	42
+GCA_036232165.1	ASM3623216v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5903	65
+GCF_036232165.1	ASM3623216v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5905	55
+GCA_036232845.1	ASM3623284v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5913	47
+GCF_036232845.1	ASM3623284v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5914	37
+GCA_036232865.1	ASM3623286v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5914	49
+GCF_036232865.1	ASM3623286v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5915	38
+GCA_035666215.1	ASM3566621v1	Pseudomonas aeruginosa	PacBio RSII; DNBSEQ	5910	44
+GCF_035666215.1	ASM3566621v1	Pseudomonas aeruginosa	PacBio RSII; DNBSEQ	5910	44
+GCA_037285345.1	ASM3728534v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	5969	51
+GCF_037285345.1	ASM3728534v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	5969	51
+GCA_036418125.1	ASM3641812v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6014	82
+GCF_036418125.1	ASM3641812v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6014	82
+GCA_036232805.1	ASM3623280v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6216	88
+GCF_036232805.1	ASM3623280v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	6220	77
+GCF_035621395.1	ASM3562139v1	Pseudomonas aeruginosa	Oxford Nanopore	5891	52
+GCA_036232305.1	ASM3623230v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5877	46
+GCF_036232305.1	ASM3623230v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5880	37
+GCA_037287465.1	ASM3728746v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	5905	43
+GCF_037287465.1	ASM3728746v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	5905	43
+GCA_036237035.1	ASM3623703v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5951	96
+GCF_036237035.1	ASM3623703v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5954	82
+GCA_037267025.1	ASM3726702v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	5904	43
+GCF_037267025.1	ASM3726702v1	Pseudomonas aeruginosa	Illumina NextSeq and Oxford Nanopore GridION X5	5904	43
+GCA_035984435.1	ASM3598443v1	Pseudomonas aeruginosa	Illumina; PacBio	5903	35
+GCF_035984435.1	ASM3598443v1	Pseudomonas aeruginosa	Illumina; PacBio	5903	35
+GCA_036232495.1	ASM3623249v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5903	47
+GCF_036232495.1	ASM3623249v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5905	34
+GCA_036237075.1	ASM3623707v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5903	49
+GCF_036237075.1	ASM3623707v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5905	36
+GCA_036232245.1	ASM3623224v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5938	54
+GCF_036232245.1	ASM3623224v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5939	45
+GCA_038435155.1	ASM3843515v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	5831	30
+GCF_038435155.1	ASM3843515v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	5828	28
+GCA_036233715.1	ASM3623371v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5843	83
+GCF_036233715.1	ASM3623371v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5843	72
+GCA_036236995.1	ASM3623699v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5832	41
+GCF_036236995.1	ASM3623699v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5832	30
+GCF_037914935.1	ASM3791493v1	Pseudomonas aeruginosa	Pacific BioSciences	5796	40
+GCA_036233155.1	ASM3623315v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5765	51
+GCF_036233155.1	ASM3623315v1	Pseudomonas aeruginosa	Oxford Nanopore MinION	5764	43
+GCA_038433795.1	ASM3843379v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6706	57
+GCF_038433795.1	ASM3843379v1	Pseudomonas aeruginosa	Oxford Nanopore MinION and Illumina iSeq	6704	56
+GCA_030366015.2	ASM3036601v2	Pseudomonas aeruginosa	Oxford Nanopore	6617	103
+GCA_030368395.2	ASM3036839v2	Pseudomonas aeruginosa	Oxford Nanopore	6599	78
+GCA_033541995.2	ASM3354199v2	Pseudomonas aeruginosa	Oxford Nanopore	6338	82
+GCA_036872625.1	ASM3687262v1	Pseudomonas aeruginosa	PacBio	6364	59
+GCA_037223945.1	ASM3722394v1	Pseudomonas aeruginosa	PacBio Sequel	6290	60
+GCA_034127025.2	ASM3412702v2	Pseudomonas aeruginosa	Oxford Nanopore GridION; Illumina MiSeq	6341	60
+GCA_038799315.1	ASM3879931v1	Pseudomonas aeruginosa	Oxford Nanopore	6194	1094
