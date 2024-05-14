@@ -24,11 +24,29 @@ El tabulado también es una gran herramienta para moverse entre directorios pues
 
 Cuando lleguemos a los archivos y necesitemos leerlos, vamos a disponer de varios comandos para este fin como: less, cat, head y tail. ¡Probemos cada uno!
 
-Para esto descarguemos un archivo del siguiente link con el comando _wget_: [link](https://downgit.github.io/#/home?url=https://github.com/SebastianSarmientoC/Bash/blob/main/Pauriginosa_complete_genomes_annotated_2024_1.tsv)
+Para esto descarguemos un archivo del siguiente link con el comando _wget_: [link](https://raw.githubusercontent.com/SebastianSarmientoC/Bash/main/Pauriginosa_complete_genomes_annotated_2024_1.tsv)
 
-Para mover archivos de un lugar a otro pordemos utilizar _cp_. 
+Para copiar archivos de un lugar a otro pordemos utilizar _cp_. En dado caso que queramos mover los archivos (cortarlos) de un directorio a otro podemos utilizar el comando _mv_. 
+
+Creemos un archivo con el fin de moverlo a un directorio que también crearemos. Con el comando _echo_ que nos permite imprimir texto vamos a crear el archivo de la siguiente manera: _echo_ "Palabras al azar" > archivo.txt. Cómo creen que se puede guardar el archivo que acabamos de concatenar. 
+
+En el caso que queramos adicionar texto en el archivo podemos utilizar el editor de texto prodeterminado llamado _nano_. 
+
+Otra función muy usada es _cat_ que nos permite concatenar archivos. Creemos otro archivo con _echo_ "Más palabras al azar" > archivo2.txt. Y ahora concatenemos los dos archivos.  
 
 Para crear directorios utilizamos el comando _mkdir_ y para eliminarlos utilizamos _rmdir_ o _rm -rf_. 
+
+Otro comando importante a la hora de utilizar bash es pipe _|_. Corramos este comando _cut -f 5 Pauriginosa_complete_genomes_annotated_2024_1.tsv | sort_. ¿Qué hizo el comando?
+
+Así es, con _cut_ podemos obtener columnas específicas de los archivos y con sor podemos ordenar dichas columnas. (Con _sort -t' ' -k2 input_ podemos ordenar sin quitar las demás columnasdel archivo).
+
+Ahora aprendamos como podemos filtrar nuestros archivos sin tener que modificarlos o incluso ingresar en ellos. Uno de los comandos que podemos utilizar para tal fin es _grep_, el cual busca patrones específicos en todo el archivo y los separa del resto. Por ejemplo, busquemos aquellos genomas que fueron secuenciados por PacBio, en el archivo descargado. 
+
+grep 'PacBio' Paeuriginosa_complete_genomes_annotated_2024_1.tsv 
+
+
+
+
 
 
 
