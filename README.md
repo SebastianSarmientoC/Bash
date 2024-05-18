@@ -15,14 +15,28 @@ En dado caso de querer ampliar la información de los archivos que están en el 
 
 ![Permisos](https://www.redeszone.net/app/uploads-redeszone.net/2017/01/otorgar-permisos-fichero-o-carpeta-linux.png)
 
-Incluso, si se quieren observar otras característicasde los archivos o que no nos acordemos cual era el comando específico siempre podemos pedirle ayuda a shell para conocer las diferentes funciones de los comandos de la siguiente manera: 
+¡Funciones secundarias! 
+
+¿Cómo pido ayuda? 
 1. ls --help
 2. man ls
 3. info ls
 
 Para movernos entre directorios utilizamos _cd_ (change directory) para entrar a las carpetas o _cd_ .. si queremos devolvernos. 
 
-El tabulado también es una gran herramienta para moverse entre directorios pues nos va a permitir ver las que opciones tenemos antes de ejecutar el comando. ¡Probémoslo!
+El tabulado también es una gran herramienta para moverse entre directorios pues nos va a permitir ver las que opciones de carpetas que tenemos antes de ejecutar el comando o también de autocompletar el nombre del archivo. 
+
+Miremos ahora como podemos subir un archivo al cluster. Para ello podemos utilizar el comando _scp_ o podemos descargar aplicaciones como cyberduck o filezilla. Sin embargo es importante recordar que para subir o bajar archivos del cluster hay que estar por fuera. 
+
+scp [OPTION] [user@]SRC_HOST:]file1 [user@]DEST_HOST:]file2
+scp -P <ruta/archivo> lvega@10.10.100.139 
+
+Ejemplo filezilla: 
+![Filezilla]("D:\Usuario\Downloads\Imagen de WhatsApp 2024-05-16 a las 12.08.19_d2d398fb.jpg")
+
+
+Tienes que estar en la carpeta de la cual quieres sacar el archivo o en su defecto especificar la ruta completa de donde se encuentra. 
+
 
 Cuando lleguemos a los archivos y necesitemos leerlos, vamos a disponer de varios comandos para este fin como: less, cat, head y tail. ¡Probemos cada uno!
 
