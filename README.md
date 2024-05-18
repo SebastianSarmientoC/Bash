@@ -32,7 +32,7 @@ scp [OPTION] [user@]SRC_HOST:]file1 [user@]DEST_HOST:]file2
 scp -P <ruta/archivo> lvega@10.10.100.139 
 
 Ejemplo filezilla: 
-![Filezilla]("D:\Usuario\Downloads\Imagen de WhatsApp 2024-05-16 a las 12.08.19_d2d398fb.jpg")
+![Filezilla](file:///D:/Usuario/Downloads/filezilla.jpg)
 
 
 Tienes que estar en la carpeta de la cual quieres sacar el archivo o en su defecto especificar la ruta completa de donde se encuentra. 
