@@ -1,17 +1,19 @@
 # Bash
 Una introducción a bash shell
 
-¿Qué es bash? 
-Intérprete de órdenes. 
+Primero vamos a abrir la terminal de nuestro computador. Y de aquí vamos a ingresar al directamente al cluster con su respectivo usuario. 
+ssh 10.10.100.139 -l lvega
 
 Miremos varios de los comandos básicos que vamos a necesitar. 
-Pueden encontrar un listado de comandos en esta dirección: [Link](https://www.reneshbedre.com/blog/linux-for-bioinformatics.html#getting-started-with-linux-commands)
 
-Para saber en que directorio o carpeta nos encontramos utilizamos _pwd_ (print working directory).
+Para saber en que directorio o carpeta nos encontramos se utiliza _pwd_ (print working directory).
 
 Para saber que hay en el directorio que estamos parados pordemos utilizar _ls_. 
 
 En dado caso de querer ampliar la información de los archivos que están en el directorio te puede utilizar ls -l. 
+¿Qué son los permisos de los archivos? 
+
+![Permisos](https://www.redeszone.net/app/uploads-redeszone.net/2017/01/otorgar-permisos-fichero-o-carpeta-linux.png)
 
 Incluso, si se quieren observar otras característicasde los archivos o que no nos acordemos cual era el comando específico siempre podemos pedirle ayuda a shell para conocer las diferentes funciones de los comandos de la siguiente manera: 
 1. ls --help
@@ -39,6 +41,8 @@ Para crear directorios utilizamos el comando _mkdir_ y para eliminarlos utilizam
 Otro comando importante a la hora de utilizar bash es pipe _|_. Corramos este comando _cut -f 5 Paeruginosa_complete_genomes_annotated_2024_1.tsv | sort_. ¿Qué hizo el comando?
 
 Así es, con _cut_ podemos obtener columnas específicas de los archivos y con sor podemos ordenar dichas columnas. (Con _sort -t' ' -k2 input_ podemos ordenar sin quitar las demás columnasdel archivo).
+
+Pueden encontrar una lista resumen de estos comandos en esta dirección: [Link](https://www.reneshbedre.com/blog/linux-for-bioinformatics.html#getting-started-with-linux-commands)
 
 Ahora aprendamos como podemos filtrar nuestros archivos sin tener que modificarlos o incluso ingresar en ellos. Uno de los comandos que podemos utilizar para tal fin es _grep_, el cual busca patrones específicos en todo el archivo y los separa del resto. Por ejemplo, busquemos aquellos genomas que fueron secuenciados por PacBio, en el archivo descargado. 
 
