@@ -62,6 +62,9 @@ Otro comando importante a la hora de utilizar bash es pipe _|_. Teniendo en cuen
 
 Pueden encontrar una lista resumen de estos comandos en esta dirección: [Link](https://www.reneshbedre.com/blog/linux-for-bioinformatics.html#getting-started-with-linux-commands)
 
+Antes de ver otros comandos es MUY importante que antes de empezar a trabajar en nuestros proyectos, pidamos recursos y trabajemos sobre estos recursos. 
+Para hacer esto utilizamos el comando _salloc_, que nos va a asignar automáticamente una cantidad de nucleos de acuerdo a la disponibilidad del cluster en ese momento.  
+
 Ahora aprendamos como podemos filtrar nuestros archivos sin tener que modificarlos o incluso ingresar a ellos. Uno de los comandos que podemos utilizar para tal fin es _grep_, el cual busca patrones específicos en todo el archivo y los separa del resto. Por ejemplo, busquemos aquellos genomas que fueron secuenciados por PacBio, en el archivo descargado. 
 
 _grep 'PacBio' Paeruginosa_complete_genomes_annotated_2024_1.tsv_
@@ -92,13 +95,13 @@ De igual manera que con _grep_ _sed_ permite utilizar expresiones regulares para
 
 sed -E 's/\t([0-9]{4})\t([0-9]+)/\t\1\t\2/g' Paeruginosa_complete_genomes_annotated_2024_1.tsv
 
-Ahora miremos como aprovechar. 
 
 En el cluster también es importante saber como utilizar los programas que allí tenemos instalados. 
 Para ver los programas que se encuentran ya instalados podemos utilizar el comando _module avail_. 
-Si queremos utilizar un programa necesitamos cargarlo primero, para ello utilizamos _module load <nombre del programa/versión>_
+Si queremos utilizar un programa, necesitamos cargarlo primero. Para ello utilizamos _module load <nombre del programa/versión>_
 De esta manera, todas las funciones de dicho programa estarán disponibles para nosotros.
 
+La instalación de los programas generalmente es hecha por el administrador, sin embargo, existe una herramienta que nos da la posibilidad de instalar programas y dependencias de manera independiente. Los ambientes o entornos virtuales de conda nos permiten instalar todo lo que se encuentre en anaconda. 
 
 Conda
 Cómo crear ambientes virtuales: 
@@ -107,13 +110,23 @@ Cómo activar dicho ambiente:
 _conda activate <nombre>_
 Como ver que ambientes hay creados: 
 _cond env list_
+Como instalar algo en dicho ambiente: 
+_conda install <nombre del paquete>_
 Para saber que hay instalado en cada ambiente: 
 _conda list_
+Para desactivar el ambiente: 
+_conda deactivate_
 Para eliminar un ambiente: 
 _conda env remove_
 
-
+Aquí podemos encontrar una lista de los principales comando de conda:
 [Conda cheat sheat](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+
+
+
+Ahora miremos como el cluster distribuye los recursos para maximizar el trabajo que puede realizar. Veamos que es SLURM. 
+
+
 
 
 
