@@ -94,10 +94,24 @@ sed -E 's/\t([0-9]{4})\t([0-9]+)/\t\1\t\2/g' Paeruginosa_complete_genomes_annota
 
 Ahora miremos como aprovechar. 
 
+En el cluster también es importante saber como utilizar los programas que allí tenemos instalados. 
+Para ver los programas que se encuentran ya instalados podemos utilizar el comando _module avail_. 
+Si queremos utilizar un programa necesitamos cargarlo primero, para ello utilizamos _module load <nombre del programa/versión>_
+De esta manera, todas las funciones de dicho programa estarán disponibles para nosotros.
+
 
 Conda
-conda activate py2env
+Cómo crear ambientes virtuales: 
+_conda create --name py35env python=3.5_
+Cómo activar dicho ambiente: 
+_conda activate <nombre>_
+Como ver que ambientes hay creados: 
+_cond env list_
+Para saber que hay instalado en cada ambiente: 
+_conda list_
 
+
+[Conda cheat sheat](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 
 
