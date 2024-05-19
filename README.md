@@ -87,11 +87,16 @@ Por ejemplo, si quisieramos quitar los espacios entre el género y el epíteto d
 
 _sed 's/Pseudomonas aeruginosa/Pseudomonas_aeruginosa/' Paeruginosa_complete_genomes_annotated_2024_1.tsv_
 
-Cómo harías si necesitaras unir las útimas do columnas entonces. 
+Cómo harías si necesitaras unir las útimas dos columnas entonces. 
 De igual manera que con _grep_ _sed_ permite utilizar expresiones regulares para buscar patrones en el archivo. 
 
 sed -E 's/\t([0-9]{4})\t([0-9]+)/\t\1\t\2/g' Paeruginosa_complete_genomes_annotated_2024_1.tsv
 
+Ahora miremos como aprovechar. 
+
+
+Conda
+conda activate py2env
 
 
 
