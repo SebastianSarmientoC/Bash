@@ -35,9 +35,9 @@ scp -P 37022 <ruta_del_archivo> lvega@10.10.100.139:<ruta_de_donde_quiero_guarda
 Bajar
 scp -r -P 37022  lvega@10.10.100.139:<ruta_del_archivo> <ruta_de_donde_quiero_guardarlo>
 
-Para esto descarguemos un archivo del siguiente link con el comando _wget_ en linux o el siguiente comanto en windows: 
+Para esto descarguemos un archivo del siguiente link con el comando _wget_ en linux o el siguiente comanto en windows:
+
 iwr -uri https://raw.githubusercontent.com/SebastianSarmientoC/Bash/main/Paeruginosa_complete_genomes_annotated_2024_1.tsv -OutFile paeruginosa.tsv -UseBasicParsing
-[link](https://raw.githubusercontent.com/SebastianSarmientoC/Bash/main/Paeruginosa_complete_genomes_annotated_2024_1.tsv)
 
 Ejemplo filezilla/cyberduck. 
 
