@@ -26,39 +26,43 @@ Para movernos entre directorios utilizamos _cd_ (change directory) para entrar a
 
 El tabulado también es una gran herramienta para moverse entre directorios pues nos va a permitir ver las que opciones de carpetas que tenemos antes de ejecutar el comando o también de autocompletar el nombre del archivo. 
 
-Miremos ahora como podemos subir un archivo al cluster. Para ello podemos utilizar el comando _scp_ o podemos descargar aplicaciones como cyberduck o filezilla. Sin embargo es importante recordar que para subir o bajar archivos del cluster hay que estar por fuera. 
+Miremos ahora como podemos subir un archivo al cluster. Para ello podemos utilizar el comando _scp_ o podemos descargar aplicaciones como cyberduck o filezilla. Sin embargo es importante recordar que para subir o bajar archivos del cluster con comandos debemos estar por fuera del mismo. 
 
-scp [OPTION] [user@]SRC_HOST:]file1 [user@]DEST_HOST:]file2
-scp -P <ruta/archivo> lvega@10.10.100.139 
+Primero, tienes que estar en la carpeta de la cual quieres sacar el archivo o en su defecto especificar la ruta completa de donde se encuentra. 
+scp -P 22 <ruta/archivo> lvega@10.10.100.139 
+Subir
+scp -P 37022 <ruta_del_archivo> lvega@10.10.100.139:<ruta_de_donde_quiero_guardarlo>
+Bajar
+scp -r -P 37022  lvega@10.10.100.139:<ruta_del_archivo> <ruta_de_donde_quiero_guardarlo>
 
-Ejemplo filezilla: 
-![Filezilla](file:///D:/Usuario/Downloads/filezilla.jpg)
+Para esto descarguemos un archivo del siguiente link con el comando _wget_ en linux o el siguiente comanto en windows: 
+iwr -uri https://raw.githubusercontent.com/SebastianSarmientoC/Bash/main/Paeruginosa_complete_genomes_annotated_2024_1.tsv -OutFile paeruginosa.tsv -UseBasicParsing
+[link](https://raw.githubusercontent.com/SebastianSarmientoC/Bash/main/Paeruginosa_complete_genomes_annotated_2024_1.tsv)
 
+Ejemplo filezilla/cyberduck. 
 
-Tienes que estar en la carpeta de la cual quieres sacar el archivo o en su defecto especificar la ruta completa de donde se encuentra. 
+Ya subidos lo archivos... 
+Vamos a necesitar leerlos, para ello disponemos de varios comandos para este fin como: less, cat, head y tail. ¡Probemos cada uno!
 
-
-Cuando lleguemos a los archivos y necesitemos leerlos, vamos a disponer de varios comandos para este fin como: less, cat, head y tail. ¡Probemos cada uno!
-
-Para esto descarguemos un archivo del siguiente link con el comando _wget_: [link](https://raw.githubusercontent.com/SebastianSarmientoC/Bash/main/Paeruginosa_complete_genomes_annotated_2024_1.tsv)
 
 Para copiar archivos de un lugar a otro pordemos utilizar _cp_. En dado caso que queramos mover los archivos (cortarlos) de un directorio a otro podemos utilizar el comando _mv_. 
 
-Creemos un archivo con el fin de moverlo a un directorio que también crearemos. Con el comando _echo_ que nos permite imprimir texto vamos a crear el archivo de la siguiente manera: _echo_ "Palabras al azar" > archivo.txt. Cómo creen que se puede guardar el archivo que acabamos de concatenar. 
+Dentro del cluster también podremos crear archivos de texto. 
+Creemos un archivo con el fin de moverlo a un directorio que también crearemos. Con el comando _echo_ que nos permite imprimir texto vamos a crear el archivo de la siguiente manera: _echo_ "Palabras al azar" > archivo.txt.
+También podremos concatenar archivos con el comando _cat_. 
+Creemos otro archivo con _echo_ "Más palabras al azar" > archivo2.txt. Y ahora concatenemos los dos archivos.  
 
-En el caso que queramos adicionar texto en el archivo podemos utilizar el editor de texto prodeterminado llamado _nano_. 
-
-Otra función muy usada es _cat_ que nos permite concatenar archivos. Creemos otro archivo con _echo_ "Más palabras al azar" > archivo2.txt. Y ahora concatenemos los dos archivos.  
+En el caso que queramos adicionar texto en el archivo podemos utilizar el editor de texto prodeterminado llamado _nano_. El cual nos va a abrir un editor de texto. 
 
 Para crear directorios utilizamos el comando _mkdir_ y para eliminarlos utilizamos _rmdir_ o _rm -rf_. 
 
-Otro comando importante a la hora de utilizar bash es pipe _|_. Corramos este comando _cut -f 5 Paeruginosa_complete_genomes_annotated_2024_1.tsv | sort_. ¿Qué hizo el comando?
+Otro comando importante a la hora de utilizar bash es pipe _|_. Teniendo en cuenta que con el comando _cut_ podemos extrer columnas específicas de un archivo, corramos el siguiente comando _cut -f 5 Paeruginosa_complete_genomes_annotated_2024_1.tsv | sort_. ¿Qué hizo el comando? ¿Cómo creen que podemos guardar el output de este comando?  
 
-Así es, con _cut_ podemos obtener columnas específicas de los archivos y con sor podemos ordenar dichas columnas. (Con _sort -t' ' -k2 input_ podemos ordenar sin quitar las demás columnasdel archivo).
+(Con _sort -t' ' -k2 input_ podemos ordenar sin quitar las demás columnasdel archivo).
 
 Pueden encontrar una lista resumen de estos comandos en esta dirección: [Link](https://www.reneshbedre.com/blog/linux-for-bioinformatics.html#getting-started-with-linux-commands)
 
-Ahora aprendamos como podemos filtrar nuestros archivos sin tener que modificarlos o incluso ingresar en ellos. Uno de los comandos que podemos utilizar para tal fin es _grep_, el cual busca patrones específicos en todo el archivo y los separa del resto. Por ejemplo, busquemos aquellos genomas que fueron secuenciados por PacBio, en el archivo descargado. 
+Ahora aprendamos como podemos filtrar nuestros archivos sin tener que modificarlos o incluso ingresar a ellos. Uno de los comandos que podemos utilizar para tal fin es _grep_, el cual busca patrones específicos en todo el archivo y los separa del resto. Por ejemplo, busquemos aquellos genomas que fueron secuenciados por PacBio, en el archivo descargado. 
 
 _grep 'PacBio' Paeruginosa_complete_genomes_annotated_2024_1.tsv_
 
