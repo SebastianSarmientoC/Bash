@@ -30,11 +30,13 @@ El tabulado también es una gran herramienta para moverse entre directorios pues
 Miremos ahora como podemos subir un archivo al cluster. Para ello podemos utilizar el comando _scp_ o podemos descargar aplicaciones como cyberduck o filezilla. Sin embargo es importante recordar que para subir o bajar archivos del cluster con comandos debemos estar por fuera del mismo. 
 
 Primero, tienes que estar en la carpeta de la cual quieres sacar el archivo o en su defecto especificar la ruta completa de donde se encuentra.   
-scp -P 22 <ruta/archivo> lvega@10.10.100.139   
+scp <ruta/archivo> lvega@10.10.100.139   
 Subir  
-scp -P 37022 <ruta_del_archivo> lvega@10.10.100.139:<ruta_de_donde_quiero_guardarlo>  
+scp <ruta_del_archivo> lvega@10.10.100.139:<ruta_de_donde_quiero_guardarlo> 
+Ejemplo:
+scp /mnt/d/Usuario/Documents/Capacitaciones_bioinfo/archivo_prueba.txt lvega@10.10.100.139:/mnt/genomica/home/lvega/primera_capacitacion
 Bajar  
-scp -r -P 37022  lvega@10.10.100.139:<ruta_del_archivo> <ruta_de_donde_quiero_guardarlo>  
+scp -r lvega@10.10.100.139:<ruta_del_archivo> <ruta_de_donde_quiero_guardarlo>  
 
 Para esto descarguemos un archivo del siguiente link con el comando _wget_ en linux o el siguiente comanto en windows:
 
