@@ -161,11 +161,12 @@ _docker load _imagen.tar_
   
 Como correrlo abriendo el modo interactivo:  
 _docker run -i -t --name sickle -v  <ruta_de_los_archivos_dentro_del_cluster>:/working-dir sickle/<versión>_  
-... luego escribes los comandos que quieres ejecutar.  
+... luego escribes los comandos que quieres ejecutar:   
+_sickle pe -f P7741_R1.fastq.gz -r P7741_R2.fastq.gz -t sanger -q 20 -l 20 -g -o trimmed_R1.fasta.gz -p trimmed_R2.fasta.gz -s trimmed_S.fasta.gz_   
   
 Como correrlo sin tener que abrir el modo interactivo:   
-_docker run -v <dirección en el cluster>:/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe_       
-_docker run -v $(pwd):/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe_       
+_docker run -v <dirección en el cluster>:/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe -f P7741_R1.fastq.gz -r P7741_R2.fastq.gz -t sanger -q 20 -l 20 -g -o trimmed_R1.fasta.gz -p trimmed_R2.fasta.gz -s trimmed_S.fasta.gz_         
+_docker run -v $(pwd):/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe_         
   
 Como guardar imágenes para compartirlas:   
 _docker save biocontainers/sickle:<versión>_  
@@ -175,7 +176,7 @@ Finalmente, miremos como el cluster distribuye los recursos para maximizar el tr
 Corramos el archivo .sh que contiene las instrucciones para correr un script de python.   
 
 
-Ejemplo final:     
+Ejemplo final _Mycobacterium ulcerans_:     
 conda config --show channels  
 conda config --add channels conda-forge  
 conda config --add channels bioconda  
@@ -185,6 +186,7 @@ conda activate variants
 
 sickle pe  
 sickle pe -f P7741_R1.fastq.gz -r P7741_R2.fastq.gz -t sanger -q 20 -l 20 -g -o trimmed_R1.fasta.gz -p trimmed_R2.fasta.gz -s trimmed_S.fasta.gz  
+mkdir ref
 mv Agy99.fasta ./ref/  
 bwa index ref/Agy99.fasta  (crea la referencia)
 bwa mem ref/Agy99.fasta trimmed_R1.fasta.gz trimmed_R2.fasta.gz > output.sam  (alinea a la referencia)  
