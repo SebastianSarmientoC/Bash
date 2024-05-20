@@ -124,7 +124,7 @@ De esta manera, todas las funciones de dicho programa estarán disponibles para 
 La instalación de los programas generalmente es hecha por el administrador, sin embargo, existe una herramienta que nos da la posibilidad de instalar programas y dependencias de manera independiente. 
 Los ambientes o entornos virtuales de conda nos permiten instalar todo lo que se encuentra en anaconda [Package index](https://bioconda.github.io/conda-package_index.html). 
 
-Creemos el siguiente ambiente. 
+Creemos el siguiente ambiente (si hay tiempo): 
 
 Conda  
 Para crear ambientes virtuales:   
@@ -151,26 +151,30 @@ Mirémoslo con less o cat para ver si funcionó.
 
 Otra ayuda que podemos tener a la hora de instalar programas es Docker. Presentación.   
 Con este vamos a poder utilizar todos los programas que estén disponibles como imágenes en Docker Hub o en Quay.io.  
-
+  
 Para descargar imágenes:   
-docker pull sickle:<tag>(¿qué versión? Ir a Docker hub)  
+_docker pull sickle:<tag>(¿qué versión? Ir a Docker hub)_  
+  
 En el caso de que ya tengamos una imágen y queramos subirla, tenemos que cargarla antes de crear el contenedor:  
-docker load _imagen.tar_   
+_docker load _imagen.tar_   
+  
 Como correrlo abriendo el modo interactivo:  
-docker run -i -t --name sickle -v  <ruta de los archivos dentro del cluster>:/working-dir sickle/<versión>  
+_docker run -i -t --name sickle -v  <ruta de los archivos dentro del cluster>:/working-dir sickle/<versión>_  
 ... luego escribes los comandos que quieres ejecutar.  
+  
 Como correrlo sin tener que abrir el modo interactivo:   
-docker run -v <dirección en el cluster>:/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe   
-docker run -v $(pwd):/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe   
+_docker run -v <dirección en el cluster>:/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe_       
+_docker run -v $(pwd):/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe_       
+  
 Como guardar imágenes para compartirlas:   
-docker save biocontainers/sickle:<versión>  
+_docker save biocontainers/sickle:<versión>_  
 
 
 Finalmente, miremos como el cluster distribuye los recursos para maximizar el trabajo que puede realizar. Veamos que es SLURM. 
-Corramos el archivo .sh que contiene las instrucciones para correr un script de python. 
+Corramos el archivo .sh que contiene las instrucciones para correr un script de python.   
 
 
-Ejemplo final:   
+Ejemplo final:     
 conda config --show channels  
 conda config --add channels conda-forge  
 conda config --add channels bioconda  
@@ -182,13 +186,13 @@ sickle pe
 sickle pe -f P7741_R1.fastq.gz -r P7741_R2.fastq.gz -t sanger -q 20 -l 20 -g -o trimmed_R1.fasta.gz -p trimmed_R2.fasta.gz -s trimmed_S.fasta.gz  
 mv Agy99.fasta ./ref/  
 bwa index ref/Agy99.fasta  (crea la referencia)
-bwa mem ref/Agy99.fasta trimmed_R1.fasta.gz trimmed_R2.fasta.gz > output.sam  (alinea a la referencia)
-samtools view -S -b output.sam > output.bam  (convertir a bam)
+bwa mem ref/Agy99.fasta trimmed_R1.fasta.gz trimmed_R2.fasta.gz > output.sam  (alinea a la referencia)  
+samtools view -S -b output.sam > output.bam  (convertir a bam)  
 samtools sort -o output.sorted.bam output.bam  
 samtools flagstat output.sorted.bam > mappingstats.txt  
-bcftools mpileup -O b -o raw.bcf -f ref/Agy99.fasta -q 20 -Q 30 output.sorted.bam (información sobre variantes
-bcftools call --ploidy 1 -m -v -o variants.raw.vcf raw.bcf  (crear el vcf)
-grep -v -c '^#' variants.raw.vcf  (contar totalidad de variantes)
+bcftools mpileup -O b -o raw.bcf -f ref/Agy99.fasta -q 20 -Q 30 output.sorted.bam (información sobre variantes)  
+bcftools call --ploidy 1 -m -v -o variants.raw.vcf raw.bcf  (crear el vcf)  
+grep -v -c '^#' variants.raw.vcf  (contar totalidad de variantes)  
 
 bcftools view -v snps variants.raw.vcf | grep -v -c '^#'  
 
