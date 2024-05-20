@@ -100,17 +100,17 @@ _sed 's/Pseudomonas aeruginosa/Pseudomonas_aeruginosa/' Paeruginosa_complete_gen
 
 De igual manera que con _grep_ _sed_ permite utilizar expresiones regulares para buscar patrones en el archivo. 
 
-Al igual que en R o python aquí también podemos crear variables, funciones y loops. 
-Crear variables: _var1=56_
-Para llamar a esa variable debemos utilizar el sigo _$_, de la siguiente manera. 
-_$var1_ Ahora sí podemos imprimirla: _echo $var1_
-
-Corramos esto:
-count=$(seq -s " " 2 2 10)
-echo $count
-for i in $count; do
- echo $i > "file_$i.txt";
-done
+Al igual que en R o python aquí también podemos crear variables, funciones y loops.   
+Crear variables: _var1=56_  
+Para llamar a esa variable debemos utilizar el sigo _$_, de la siguiente manera.   
+_$var1_ Ahora sí podemos imprimirla: _echo $var1_  
+  
+Corramos esto:  
+count=$(seq -s " " 2 2 10)  
+echo $count  
+for i in $count; do  
+ echo $i > "file_$i.txt";  
+done  
 
 ¿Qué hizo?
 
@@ -126,76 +126,76 @@ Los ambientes o entornos virtuales de conda nos permiten instalar todo lo que se
 
 Creemos el siguiente ambiente. 
 
-Conda
-Para crear ambientes virtuales: 
-_conda create --name py35env python=3.5 bwa_
-Para activar dicho ambiente: 
-_conda activate <nombre>_
-Para ver que ambientes hay creados: 
-_cond env list_
-Para instalar algo en dicho ambiente: 
-_conda install <nombre del paquete>_
-Para saber que hay instalado en cada ambiente: 
-_conda list_
-Para desactivar el ambiente: 
-_conda deactivate_
-Para eliminar un ambiente: 
-_conda env remove <nombre del entorno>_
+Conda  
+Para crear ambientes virtuales:   
+_conda create --name py35env python=3.5 bwa_  
+Para activar dicho ambiente:  
+_conda activate <nombre>_  
+Para ver que ambientes hay creados:   
+_cond env list_  
+Para instalar algo en dicho ambiente:   
+_conda install <nombre del paquete>_  
+Para saber que hay instalado en cada ambiente:   
+_conda list_  
+Para desactivar el ambiente:   
+_conda deactivate_  
+Para eliminar un ambiente:   
+_conda env remove <nombre del entorno>_  
 
-Aquí podemos encontrar una lista de los principales comando de conda:
-[Conda cheat sheat](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+Aquí podemos encontrar una lista de los principales comando de conda:  
+[Conda cheat sheat](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)  
+  
+Por ejemplo, corramos un alineamiento sobre la secuencias del gen 16S de Pseudomonas aeruginosa que vamos a encontrar en la carpeta Principal de la   primera_capacitación. Activemos el entorno: py3env y utilicemos el alineador mafft para hacerlo con el siguiente comando:   
+_mafft --thread -1 sequence.fasta > paeruginosa_alignment.fasta_  
+Mirémoslo con less o cat para ver si funcionó.   
 
-Por ejemplo, corramos un alineamiento sobre la secuencias del gen 16S de Pseudomonas aeruginosa que vamos a encontrar en la carpeta Principal de la primera_capacitación. Activemos el entorno: py3env y utilicemos el alineador mafft para hacerlo con el siguiente comando: 
-_mafft --thread -1 sequence.fasta > paeruginosa_alignment.fasta_
-Mirémoslo con less o cat para ver si funcionó. 
+Otra ayuda que podemos tener a la hora de instalar programas es Docker. Presentación.   
+Con este vamos a poder utilizar todos los programas que estén disponibles como imágenes en Docker Hub o en Quay.io.  
 
-Otra ayuda que podemos tener a la hora de instalar programas es Docker. Presentación. 
-Con este vamos a poder utilizar todos los programas que estén disponibles como imágenes en Docker Hub o en Quay.io.
-
-Para descargar imágenes: 
-docker pull sickle:<tag>(¿qué versión? Ir a Docker hub)
-En el caso de que ya tengamos una imágen y queramos subirla, tenemos que cargarla antes de crear el contenedor:
-docker load _imagen.tar_ 
-Como correrlo abriendo el modo interactivo:
-docker run -i -t --name sickle -v  <ruta de los archivos dentro del cluster>:/working-dir sickle/<versión>
-... luego escribes los comandos que quieres ejecutar.
-Como correrlo sin tener que abrir el modo interactivo: 
-docker run -v <dirección en el cluster>:/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe 
-docker run -v $(pwd):/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe 
-Como guardar imágenes para compartirlas: 
-docker save biocontainers/sickle:<versión>
-
-
-Finalmente, miremos como el cluster distribuye los recursos para maximizar el trabajo que puede realizar. Veamos que es SLURM. 
+Para descargar imágenes:   
+docker pull sickle:<tag>(¿qué versión? Ir a Docker hub)  
+En el caso de que ya tengamos una imágen y queramos subirla, tenemos que cargarla antes de crear el contenedor:  
+docker load _imagen.tar_   
+Como correrlo abriendo el modo interactivo:  
+docker run -i -t --name sickle -v  <ruta de los archivos dentro del cluster>:/working-dir sickle/<versión>  
+... luego escribes los comandos que quieres ejecutar.  
+Como correrlo sin tener que abrir el modo interactivo:   
+docker run -v <dirección en el cluster>:/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe   
+docker run -v $(pwd):/working-dir -w /working-dir biocontainers/sickle:<versión> sickle pe   
+Como guardar imágenes para compartirlas:   
+docker save biocontainers/sickle:<versión>  
 
 
-Ejemplo final: 
-conda config --show channels
-conda config --add channels conda-forge
-conda config --add channels bioconda
-conda create -n variants bwa bcftools samtools sickle python biopython
+Finalmente, miremos como el cluster distribuye los recursos para maximizar el trabajo que puede realizar. Veamos que es SLURM.   
 
-conda activate variants
 
-sickle pe
-sickle pe -f P7741_R1.fastq.gz -r P7741_R2.fastq.gz -t sanger -q 20 -l 20 -g -o trimmed_R1.fasta.gz -p trimmed_R2.fasta.gz -s trimmed_S.fasta.gz
-mv Agy99.fasta ./ref/
-bwa index ref/Agy99.fasta
-bwa mem ref/Agy99.fasta trimmed_R1.fasta.gz trimmed_R2.fasta.gz > output.sam
-samtools view -S -b output.sam > output.bam
-samtools sort -o output.sorted.bam output.bam
-samtools flagstat output.sorted.bam > mappingstats.txt
-bcftools mpileup -O b -o raw.bcf -f ref/Agy99.fasta -q 20 -Q 30 output.sorted.bam
-bcftools call --ploidy 1 -m -v -o variants.raw.vcf raw.bcf
-grep -v -c '^#' variants.raw.vcf
+Ejemplo final:   
+conda config --show channels  
+conda config --add channels conda-forge  
+conda config --add channels bioconda  
+conda create -n variants bwa bcftools samtools sickle python biopython  
 
-bcftools view -v snps variants.raw.vcf | grep -v -c '^#'
+conda activate variants  
 
-bcftools view -v indels variants.raw.vcf | grep -v -c '^#'
+sickle pe  
+sickle pe -f P7741_R1.fastq.gz -r P7741_R2.fastq.gz -t sanger -q 20 -l 20 -g -o trimmed_R1.fasta.gz -p trimmed_R2.fasta.gz -s trimmed_S.fasta.gz  
+mv Agy99.fasta ./ref/  
+bwa index ref/Agy99.fasta  
+bwa mem ref/Agy99.fasta trimmed_R1.fasta.gz trimmed_R2.fasta.gz > output.sam  
+samtools view -S -b output.sam > output.bam  
+samtools sort -o output.sorted.bam output.bam  
+samtools flagstat output.sorted.bam > mappingstats.txt  
+bcftools mpileup -O b -o raw.bcf -f ref/Agy99.fasta -q 20 -Q 30 output.sorted.bam  
+bcftools call --ploidy 1 -m -v -o variants.raw.vcf raw.bcf  
+grep -v -c '^#' variants.raw.vcf  
 
-bcftools query -f '%POS\n' variants.raw.vcf >pos.txt
+bcftools view -v snps variants.raw.vcf | grep -v -c '^#'  
 
-head pos.txt
+bcftools view -v indels variants.raw.vcf | grep -v -c '^#'  
+
+bcftools query -f '%POS\n' variants.raw.vcf >pos.txt  
+
+head pos.txt  
 
 
 
