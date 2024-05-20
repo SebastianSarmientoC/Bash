@@ -102,7 +102,7 @@ De igual manera que con _grep_ _sed_ permite utilizar expresiones regulares para
 
 Al igual que en R o python aquí también podemos crear variables, funciones y loops.   
 Crear variables: _var1=56_  
-Para llamar a esa variable debemos utilizar el sigo _$_, de la siguiente manera.   
+Para llamar a esa variable debemos utilizar el signo _$_, de la siguiente manera.   
 _$var1_ Ahora sí podemos imprimirla: _echo $var1_  
   
 Corramos esto:  
@@ -166,7 +166,8 @@ Como guardar imágenes para compartirlas:
 docker save biocontainers/sickle:<versión>  
 
 
-Finalmente, miremos como el cluster distribuye los recursos para maximizar el trabajo que puede realizar. Veamos que es SLURM.   
+Finalmente, miremos como el cluster distribuye los recursos para maximizar el trabajo que puede realizar. Veamos que es SLURM. 
+Corramos el archivo .sh que contiene las instrucciones para correr un script de python. 
 
 
 Ejemplo final:   
@@ -180,14 +181,14 @@ conda activate variants
 sickle pe  
 sickle pe -f P7741_R1.fastq.gz -r P7741_R2.fastq.gz -t sanger -q 20 -l 20 -g -o trimmed_R1.fasta.gz -p trimmed_R2.fasta.gz -s trimmed_S.fasta.gz  
 mv Agy99.fasta ./ref/  
-bwa index ref/Agy99.fasta  
-bwa mem ref/Agy99.fasta trimmed_R1.fasta.gz trimmed_R2.fasta.gz > output.sam  
-samtools view -S -b output.sam > output.bam  
+bwa index ref/Agy99.fasta  (crea la referencia)
+bwa mem ref/Agy99.fasta trimmed_R1.fasta.gz trimmed_R2.fasta.gz > output.sam  (alinea a la referencia)
+samtools view -S -b output.sam > output.bam  (convertir a bam)
 samtools sort -o output.sorted.bam output.bam  
 samtools flagstat output.sorted.bam > mappingstats.txt  
-bcftools mpileup -O b -o raw.bcf -f ref/Agy99.fasta -q 20 -Q 30 output.sorted.bam  
-bcftools call --ploidy 1 -m -v -o variants.raw.vcf raw.bcf  
-grep -v -c '^#' variants.raw.vcf  
+bcftools mpileup -O b -o raw.bcf -f ref/Agy99.fasta -q 20 -Q 30 output.sorted.bam (información sobre variantes
+bcftools call --ploidy 1 -m -v -o variants.raw.vcf raw.bcf  (crear el vcf)
+grep -v -c '^#' variants.raw.vcf  (contar totalidad de variantes)
 
 bcftools view -v snps variants.raw.vcf | grep -v -c '^#'  
 
