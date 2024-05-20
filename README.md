@@ -34,7 +34,7 @@ scp <ruta/archivo> lvega@10.10.100.139
 Subir  
 scp <ruta_del_archivo> lvega@10.10.100.139:<ruta_de_donde_quiero_guardarlo> 
 Ejemplo:
-scp /mnt/d/Usuario/Documents/Capacitaciones_bioinfo/archivo_prueba.txt lvega@10.10.100.139:/mnt/genomica/home/lvega/primera_capacitacion
+scp /mnt/d/Usuario/Documents/Capacitaciones_bioinfo/archivo_prueba.txt lvega@10.10.100.139:/mnt/genomica/home/lvega/primera_capacitacion  
 Bajar  
 scp -r lvega@10.10.100.139:<ruta_del_archivo> <ruta_de_donde_quiero_guardarlo>  
 
