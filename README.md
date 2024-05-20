@@ -135,13 +135,13 @@ _conda activate <nombre>_
 Para ver que ambientes hay creados:   
 _cond env list_  
 Para instalar algo en dicho ambiente:   
-_conda install <nombre del paquete>_  
+_conda install <nombre_del_paquete>_  
 Para saber que hay instalado en cada ambiente:   
 _conda list_  
 Para desactivar el ambiente:   
 _conda deactivate_  
 Para eliminar un ambiente:   
-_conda env remove <nombre del entorno>_  
+_conda env remove <nombre_entorno>_  
 
 Aquí podemos encontrar una lista de los principales comando de conda:  
 [Conda cheat sheat](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)  
@@ -160,7 +160,7 @@ En el caso de que ya tengamos una imágen y queramos subirla, tenemos que cargar
 _docker load _imagen.tar_   
   
 Como correrlo abriendo el modo interactivo:  
-_docker run -i -t --name sickle -v  <ruta de los archivos dentro del cluster>:/working-dir sickle/<versión>_  
+_docker run -i -t --name sickle -v  <ruta_de_los_archivos_dentro_del_cluster>:/working-dir sickle/<versión>_  
 ... luego escribes los comandos que quieres ejecutar.  
   
 Como correrlo sin tener que abrir el modo interactivo:   
