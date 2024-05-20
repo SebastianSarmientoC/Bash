@@ -2,26 +2,26 @@
 
 Breve introducción a bash shell
 
-Primero vamos a abrir la terminal de nuestro computador. Y de aquí vamos a ingresar al directamente al cluster con su respectivo usuario. 
-ssh 10.10.100.139 -l lvega
+Primero vamos a abrir la terminal de nuestro computador. Y de aquí vamos a ingresar al directamente al cluster con su respectivo usuario.   
+ssh 10.10.100.139 -l lvega  
 
-Miremos varios de los comandos básicos que vamos a necesitar. 
+Miremos varios de los comandos básicos que vamos a necesitar.   
 
-Para saber en que directorio o carpeta nos encontramos se utiliza _pwd_ (print working directory).
+Para saber en que directorio o carpeta nos encontramos se utiliza _pwd_ (print working directory).  
 
-Para saber que hay en el directorio que estamos parados pordemos utilizar _ls_. 
+Para saber que hay en el directorio que estamos parados pordemos utilizar _ls_.  
 
-En dado caso de querer ampliar la información de los archivos que están en el directorio te puede utilizar ls -l. 
-¿Qué son los permisos de los archivos? 
+En dado caso de querer ampliar la información de los archivos que están en el directorio te puede utilizar ls -l.   
+¿Qué son los permisos de los archivos?   
 
 ![Permisos](https://www.redeszone.net/app/uploads-redeszone.net/2017/01/otorgar-permisos-fichero-o-carpeta-linux.png)
 
-¡Funciones secundarias! 
+¡Funciones secundarias!   
 
-¿Cómo pido ayuda? 
-1. ls --help
-2. man ls
-3. info ls
+¿Cómo pido ayuda?   
+1. ls --help  
+2. man ls  
+3. info ls  
 
 Para movernos entre directorios utilizamos _cd_ (change directory) para entrar a las carpetas o _cd_ .. si queremos devolvernos. 
 
@@ -29,12 +29,12 @@ El tabulado también es una gran herramienta para moverse entre directorios pues
 
 Miremos ahora como podemos subir un archivo al cluster. Para ello podemos utilizar el comando _scp_ o podemos descargar aplicaciones como cyberduck o filezilla. Sin embargo es importante recordar que para subir o bajar archivos del cluster con comandos debemos estar por fuera del mismo. 
 
-Primero, tienes que estar en la carpeta de la cual quieres sacar el archivo o en su defecto especificar la ruta completa de donde se encuentra. 
-scp -P 22 <ruta/archivo> lvega@10.10.100.139 
-Subir
-scp -P 37022 <ruta_del_archivo> lvega@10.10.100.139:<ruta_de_donde_quiero_guardarlo>
-Bajar
-scp -r -P 37022  lvega@10.10.100.139:<ruta_del_archivo> <ruta_de_donde_quiero_guardarlo>
+Primero, tienes que estar en la carpeta de la cual quieres sacar el archivo o en su defecto especificar la ruta completa de donde se encuentra.   
+scp -P 22 <ruta/archivo> lvega@10.10.100.139   
+Subir  
+scp -P 37022 <ruta_del_archivo> lvega@10.10.100.139:<ruta_de_donde_quiero_guardarlo>  
+Bajar  
+scp -r -P 37022  lvega@10.10.100.139:<ruta_del_archivo> <ruta_de_donde_quiero_guardarlo>  
 
 Para esto descarguemos un archivo del siguiente link con el comando _wget_ en linux o el siguiente comanto en windows:
 
