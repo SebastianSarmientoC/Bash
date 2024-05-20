@@ -1,5 +1,6 @@
-# Bash
-Una introducción a bash shell
+# Bash, Conda, Docker, SLURM
+
+Breve introducción a bash shell
 
 Primero vamos a abrir la terminal de nuestro computador. Y de aquí vamos a ingresar al directamente al cluster con su respectivo usuario. 
 ssh 10.10.100.139 -l lvega
